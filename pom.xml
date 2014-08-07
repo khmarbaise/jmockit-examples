@@ -1,0 +1,34 @@
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.soebes.smpp</groupId>
+    <artifactId>smpp</artifactId>
+    <version>0.6.5</version>
+  </parent>
+
+  <groupId>com.soebes.testing.jmockit</groupId>
+  <artifactId>first</artifactId>
+  <version>0.1-SNAPSHOT</version>
+
+  <name>JMockIt Test</name>
+
+  <scm>
+    <developerConnection>scm:git:git@github.com:khmarbaise/jmockit-examples.git</developerConnection>
+    <connection>scm:git:git://github.com/khmarbaise/jmockit-examples.git</connection>
+    <url>https://github.com/khmarbaise/jmockit-examples</url>
+  </scm>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>
