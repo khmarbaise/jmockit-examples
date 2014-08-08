@@ -21,7 +21,6 @@ public class BitMaskTest
             result = true;
         }};
 
-        System.out.println("BitMask:" + bitmask);
         assertThat( bitmask.getBitMaskValue() ).isEqualTo( 7 );
         assertThat(bitmask.isBitSet( 3 )).isTrue();
     }
